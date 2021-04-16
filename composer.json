@@ -1,5 +1,5 @@
 {
-    "name": "symfony/mailer",
+    "name": "dragansefo/mailer",
     "type": "library",
     "description": "Helps sending emails",
     "keywords": [],
@@ -34,6 +34,9 @@
         "symfony/messenger": "^4.4|^5.0",
         "symfony/postmark-mailer": "^4.4|^5.0",
         "symfony/sendgrid-mailer": "^4.4|^5.0"
+    },
+    "replace": {
+        "symfony/mailer": "v5.2.3"
     },
     "conflict": {
         "symfony/http-kernel": "<4.4"
