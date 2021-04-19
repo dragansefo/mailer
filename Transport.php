@@ -51,7 +51,7 @@ class Transport
         SendgridTransportFactory::class,
         MailjetTransportFactory::class,
         SendinblueTransportFactory::class,
-        SparkPostTransportFactory::class,
+        SparkpostTransportFactory::class,
     ];
 
     private $factories;
