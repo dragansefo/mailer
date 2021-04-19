@@ -52,6 +52,10 @@ class UnsupportedSchemeException extends LogicException
             'class' => Bridge\Sendinblue\Transport\SendinblueTransportFactory::class,
             'package' => 'symfony/sendinblue-mailer',
         ],
+        'sparkpost' => [
+            'class' => Bridge\Sparkpost\Transport\SparkpostTransportFactory::class,
+            'package' => 'dragansefo/sparkpost-mailer',
+        ]
     ];
 
     public function __construct(Dsn $dsn, string $name = null, array $supported = [])
