@@ -54,7 +54,7 @@ class UnsupportedSchemeException extends LogicException
         ],
         'sparkpost' => [
             'class' => Bridge\Sparkpost\Transport\SparkpostTransportFactory::class,
-            'package' => 'dragansefo/sparkpost-mailer',
+            'package' => 'symfony/sparkpost-mailer',
         ]
     ];
 
